@@ -6,12 +6,772 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Switcher</title>
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./fonts/HelveticaNeue.ttf">
+    <link rel="stylesheet" href="./fonts/RobotoLight.ttf">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body style="background: #1A1A1A; color: #ffffff;">
-    <img src="./images/logo.svg" alt="logo">
-    <h1 class="header">COMING SOON...</h1>
-    <a href="https://www.figma.com/file/DmIkAGpRNjIg7EqJRXQV4I/Healthy-food-%2B?node-id=2%3A2&t=jkoAwegzx5T6WYDt-0" target="_blank">Go to FIGMA</a>
-    <a href="https://avetisharutyunyan.github.io/" target="_blank">Contact Me</a>
+<body>
+
+    <header>
+        <section class="header__section">
+            <div class="header__navbar container">
+                <div class="logo">
+                    <a href="./">
+                        <div class="logo_icon"><img src="./images/logo.svg" alt="logo"></div>
+                        <p class="logo_text">HEALTHY SWITCHER</p>
+                    </a>
+                </div>
+
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Chefs</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <div class="burger">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                </div>
+
+                <nav class="navside">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Chefs</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title"><span>Your</span> favourite food <span>delivered</span> hot & fresh</h1>
+                <p class="header__light_title">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &
+                    marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+
+                <button class="header__btn">Order Now</button>
+
+                <div class="header__contact_items">
+                    <div class="header__contact_item">
+                        <img src="./images/header_contact_icon-1.svg" alt="icon">
+                        <p class="header__contact_item_text">Today 10:00 am - 7:00 pm</p>
+                        <p class="header__contact_item_light_text">Working hours</p>
+                    </div>
+
+                    <div class="header__contact_item">
+                        <img src="./images/header_contact_icon-2.svg" alt="icon">
+                        <p class="header__contact_item_text">Velyka Vasylkivska 100</p>
+                        <p class="header__contact_item_light_text">Get Directions</p>
+                    </div>
+
+                    <div class="header__contact_item">
+                        <img src="./images/header_contact_icon-3.svg" alt="icon">
+                        <p class="header__contact_item_text">+38 (063)833 24 15</p>
+                        <p class="header__contact_item_light_text">Call Online</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="about__section">
+            <div class="container">
+                <div class="about__container">
+                    <div class="titles">
+                        <div class="transparent_title">ABOUT</div>
+                        <div class="title">The Basics Of Healthy Food</div>
+                    </div>
+                    <p class="about__text">
+                        In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea
+                        aliquip aliquip consectetur voluptate est. Eu minim dolore laboris enim mollit voluptate irure
+                        esse aliquip.
+                    </p>
+
+                    <div class="about__items slider">
+                        <div class="swiper-wrapper">
+                            <div class="about__item swiper-slide">
+                                <img src="./images/about__image-1.png" alt="image">
+                            </div>
+
+                            <div class="about__item swiper-slide">
+                                <img src="./images/about__image-2.png" alt="image">
+                            </div>
+
+                            <div class="about__item swiper-slide">
+                                <img src="./images/about__image-1.png" alt="image">
+                            </div>
+
+                            <div class="about__item swiper-slide">
+                                <img src="./images/about__image-2.png" alt="image">
+                            </div>
+
+                            <div class="about__item swiper-slide">
+                                <img src="./images/about__image-1.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper_buttons">
+
+                        <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_2_234" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="16" height="16">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 7H12.17L6.58 1.41L8 0L16 8L8 16L6.59 14.59L12.17 9H0V7Z" fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_2_234)">
+                                <rect width="26" height="26" transform="matrix(-1 0 0 1 21 -5)"/>
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="swiper-button-prev swiper_buttons">
+
+                        <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_2_228" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="16" height="16">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_2_228)">
+                                <rect x="-5" y="-5" width="26" height="26"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work__section">
+            <div class="container">
+                <div class="titles">
+                    <div class="transparent_title">WORK</div>
+                    <div class="title">How It Works</div>
+                </div>
+
+                <div class="work__items">
+
+                    <!-- =================== item 1 ======================== -->
+                    <div class="work__item">
+                        <p class="work__item_title">Pick Meals</p>
+                        <p class="work__item_text">
+                            Choose your meals from our diverse weekly menu. Find gluten or dairy free, low carb & veggie options.
+                        </p>
+                    </div>
+
+                    <!-- =================== item 2 ======================== -->
+                    <div class="work__item">
+                        <p class="work__item_title">Choose How Often</p>
+                        <p class="work__item_text">
+                            Our team of chefs do the prep work - no more chopping, measuring, or sink full of dishes!
+                        </p>
+                    </div>
+
+                    <!-- =================== item 3 ======================== -->
+                    <div class="work__item">
+                        <p class="work__item_title">Fast Deliveries</p>
+                        <p class="work__item_text">
+                            Your freshly prepped 15-min dinner kits arrive on your doorstep in a refrigerated box.
+                        </p>
+                    </div>
+
+                    <!-- =================== item 4 ======================== -->
+                    <div class="work__item">
+                        <p class="work__item_title">Tasty Meals</p>
+                        <p class="work__item_text">
+                            Gobble makes cooking fast, so you have more time to unwind and be with family.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dishes__section">
+            <div class="container">
+                <div class="titles">
+                    <div class="transparent_title">DISHES</div>
+                    <div class="title">Dish Of The Day</div>
+                </div>
+
+                <div class="dishes__items">
+
+                    <!-- =================== item 1 ======================= -->
+                    <div class="dishes__item">
+                        <div class="dishes__item_img">
+                            <img class="dishes_img" src="./images/dishes__image-1.png" alt="image">
+                            
+                            <div class="dishes__share_icon">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="13"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.8V5.6l5.6 5.6-5.6 5.6v-3.28c-4 0-6.8 1.28-8.8 4.08.8-4 3.2-8 8.8-8.8z" /></mask><g mask="url(#a)"><path d="M1.6 1.6h20.8v20.8H1.6z"/></g></svg>
+                            </div>
+                        </div>
+
+                        <div class="dishes__item_texts">
+                            <p class="dishes__item_title">Featured Meal</p>
+                            <p class="dishes__item_small_title">Served with french fries + drink</p>
+
+                            <p class="dishes__item_text">
+                                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...
+                            </p>
+                        </div>
+
+                        <div class="rating">
+                            <div class="rating_stars">
+                                <svg width="120" height="19" viewBox="0 0 120 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z"        fill="white" /></mask><g mask="url(#mask0_4_151)">    <rect x="-3" y="-3" width="26" height="26" /></g><mask id="mask1_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M35 15.27L41.18 19L39.54 11.97L45 7.24L37.81 6.63L35 0L32.19 6.63L25 7.24L30.46 11.97L28.82 19L35 15.27Z"        fill="white" /></mask><g mask="url(#mask1_4_151)">    <rect x="22" y="-3" width="26" height="26" /></g><mask id="mask2_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M60 15.27L66.18 19L64.54 11.97L70 7.24L62.81 6.63L60 0L57.19 6.63L50 7.24L55.46 11.97L53.82 19L60 15.27Z"        fill="white" /></mask><g mask="url(#mask2_4_151)">    <rect x="47" y="-3" width="26" height="26" /></g><mask id="mask3_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M95 7.24L87.81 6.62L85 0L82.19 6.63L75 7.24L80.46 11.97L78.82 19L85 15.27L91.18 19L89.55 11.97L95 7.24V7.24ZM85 13.4V4.1L86.71 8.14L91.09 8.52L87.77 11.4L88.77 15.68L85 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask3_4_151)">    <rect x="72" y="-3" width="26" height="26" /></g><mask id="mask4_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M120 7.24L112.81 6.62L110 0L107.19 6.63L100 7.24L105.46 11.97L103.82 19L110 15.27L116.18 19L114.55 11.97L120 7.24V7.24ZM110 13.4L106.24 15.67L107.24 11.39L103.92 8.51L108.3 8.13L110 4.1L111.71 8.14L116.09 8.52L112.77 11.4L113.77 15.68L110 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask4_4_151)">    <rect x="97" y="-3" width="26" height="26" /></g>
+                                </svg>
+                                <p class="ratinq_quantity">12</p>
+                            </div>
+                            <div class="rating__btn">
+                                <button>ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== item 2 ======================= -->
+                    <div class="dishes__item">
+                        <div class="dishes__item_img">
+                            <img class="dishes_img" src="./images/dishes__image-2.png" alt="image">
+                            
+                            <div class="dishes__share_icon">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="13"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.8V5.6l5.6 5.6-5.6 5.6v-3.28c-4 0-6.8 1.28-8.8 4.08.8-4 3.2-8 8.8-8.8z" /></mask><g mask="url(#a)"><path d="M1.6 1.6h20.8v20.8H1.6z"/></g></svg>
+                            </div>
+                        </div>
+
+                        <div class="dishes__item_texts">
+                            <p class="dishes__item_title">Featured Meal</p>
+                            <p class="dishes__item_small_title">Served with french fries + drink</p>
+
+                            <p class="dishes__item_text">
+                                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...
+                            </p>
+                        </div>
+
+                        <div class="rating">
+                            <div class="rating_stars">
+                                <svg width="120" height="19" viewBox="0 0 120 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z"        fill="white" /></mask><g mask="url(#mask0_4_151)">    <rect x="-3" y="-3" width="26" height="26" /></g><mask id="mask1_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M35 15.27L41.18 19L39.54 11.97L45 7.24L37.81 6.63L35 0L32.19 6.63L25 7.24L30.46 11.97L28.82 19L35 15.27Z"        fill="white" /></mask><g mask="url(#mask1_4_151)">    <rect x="22" y="-3" width="26" height="26" /></g><mask id="mask2_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M60 15.27L66.18 19L64.54 11.97L70 7.24L62.81 6.63L60 0L57.19 6.63L50 7.24L55.46 11.97L53.82 19L60 15.27Z"        fill="white" /></mask><g mask="url(#mask2_4_151)">    <rect x="47" y="-3" width="26" height="26" /></g><mask id="mask3_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M95 7.24L87.81 6.62L85 0L82.19 6.63L75 7.24L80.46 11.97L78.82 19L85 15.27L91.18 19L89.55 11.97L95 7.24V7.24ZM85 13.4V4.1L86.71 8.14L91.09 8.52L87.77 11.4L88.77 15.68L85 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask3_4_151)">    <rect x="72" y="-3" width="26" height="26" /></g><mask id="mask4_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M120 7.24L112.81 6.62L110 0L107.19 6.63L100 7.24L105.46 11.97L103.82 19L110 15.27L116.18 19L114.55 11.97L120 7.24V7.24ZM110 13.4L106.24 15.67L107.24 11.39L103.92 8.51L108.3 8.13L110 4.1L111.71 8.14L116.09 8.52L112.77 11.4L113.77 15.68L110 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask4_4_151)">    <rect x="97" y="-3" width="26" height="26" /></g>
+                                </svg>
+                                <p class="ratinq_quantity">12</p>
+                            </div>
+                            <div class="rating__btn">
+                                <button>ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== item 3 ======================= -->
+                    <div class="dishes__item">
+                        <div class="dishes__item_img">
+                            <img class="dishes_img" src="./images/dishes__image-3.png" alt="image">
+                            
+                            <div class="dishes__share_icon">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="13"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.8V5.6l5.6 5.6-5.6 5.6v-3.28c-4 0-6.8 1.28-8.8 4.08.8-4 3.2-8 8.8-8.8z" /></mask><g mask="url(#a)"><path d="M1.6 1.6h20.8v20.8H1.6z"/></g></svg>
+                            </div>
+                        </div>
+
+                        <div class="dishes__item_texts">
+                            <p class="dishes__item_title">Featured Meal</p>
+                            <p class="dishes__item_small_title">Served with french fries + drink</p>
+
+                            <p class="dishes__item_text">
+                                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...
+                            </p>
+                        </div>
+
+                        <div class="rating">
+                            <div class="rating_stars">
+                                <svg width="120" height="19" viewBox="0 0 120 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z"        fill="white" /></mask><g mask="url(#mask0_4_151)">    <rect x="-3" y="-3" width="26" height="26" /></g><mask id="mask1_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M35 15.27L41.18 19L39.54 11.97L45 7.24L37.81 6.63L35 0L32.19 6.63L25 7.24L30.46 11.97L28.82 19L35 15.27Z"        fill="white" /></mask><g mask="url(#mask1_4_151)">    <rect x="22" y="-3" width="26" height="26" /></g><mask id="mask2_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M60 15.27L66.18 19L64.54 11.97L70 7.24L62.81 6.63L60 0L57.19 6.63L50 7.24L55.46 11.97L53.82 19L60 15.27Z"        fill="white" /></mask><g mask="url(#mask2_4_151)">    <rect x="47" y="-3" width="26" height="26" /></g><mask id="mask3_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M95 7.24L87.81 6.62L85 0L82.19 6.63L75 7.24L80.46 11.97L78.82 19L85 15.27L91.18 19L89.55 11.97L95 7.24V7.24ZM85 13.4V4.1L86.71 8.14L91.09 8.52L87.77 11.4L88.77 15.68L85 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask3_4_151)">    <rect x="72" y="-3" width="26" height="26" /></g><mask id="mask4_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M120 7.24L112.81 6.62L110 0L107.19 6.63L100 7.24L105.46 11.97L103.82 19L110 15.27L116.18 19L114.55 11.97L120 7.24V7.24ZM110 13.4L106.24 15.67L107.24 11.39L103.92 8.51L108.3 8.13L110 4.1L111.71 8.14L116.09 8.52L112.77 11.4L113.77 15.68L110 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask4_4_151)">    <rect x="97" y="-3" width="26" height="26" /></g>
+                                </svg>
+                                <p class="ratinq_quantity">12</p>
+                            </div>
+                            <div class="rating__btn">
+                                <button>ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== item 4 ======================= -->
+                    <div class="dishes__item">
+                        <div class="dishes__item_img">
+                            <img class="dishes_img" src="./images/dishes__image-4.png" alt="image">
+                            
+                            <div class="dishes__share_icon">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="13"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.8V5.6l5.6 5.6-5.6 5.6v-3.28c-4 0-6.8 1.28-8.8 4.08.8-4 3.2-8 8.8-8.8z" /></mask><g mask="url(#a)"><path d="M1.6 1.6h20.8v20.8H1.6z"/></g></svg>
+                            </div>
+                        </div>
+
+                        <div class="dishes__item_texts">
+                            <p class="dishes__item_title">Featured Meal</p>
+                            <p class="dishes__item_small_title">Served with french fries + drink</p>
+
+                            <p class="dishes__item_text">
+                                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...
+                            </p>
+                        </div>
+
+                        <div class="rating">
+                            <div class="rating_stars">
+                                <svg width="120" height="19" viewBox="0 0 120 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z"        fill="white" /></mask><g mask="url(#mask0_4_151)">    <rect x="-3" y="-3" width="26" height="26" /></g><mask id="mask1_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M35 15.27L41.18 19L39.54 11.97L45 7.24L37.81 6.63L35 0L32.19 6.63L25 7.24L30.46 11.97L28.82 19L35 15.27Z"        fill="white" /></mask><g mask="url(#mask1_4_151)">    <rect x="22" y="-3" width="26" height="26" /></g><mask id="mask2_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M60 15.27L66.18 19L64.54 11.97L70 7.24L62.81 6.63L60 0L57.19 6.63L50 7.24L55.46 11.97L53.82 19L60 15.27Z"        fill="white" /></mask><g mask="url(#mask2_4_151)">    <rect x="47" y="-3" width="26" height="26" /></g><mask id="mask3_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M95 7.24L87.81 6.62L85 0L82.19 6.63L75 7.24L80.46 11.97L78.82 19L85 15.27L91.18 19L89.55 11.97L95 7.24V7.24ZM85 13.4V4.1L86.71 8.14L91.09 8.52L87.77 11.4L88.77 15.68L85 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask3_4_151)">    <rect x="72" y="-3" width="26" height="26" /></g><mask id="mask4_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M120 7.24L112.81 6.62L110 0L107.19 6.63L100 7.24L105.46 11.97L103.82 19L110 15.27L116.18 19L114.55 11.97L120 7.24V7.24ZM110 13.4L106.24 15.67L107.24 11.39L103.92 8.51L108.3 8.13L110 4.1L111.71 8.14L116.09 8.52L112.77 11.4L113.77 15.68L110 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask4_4_151)">    <rect x="97" y="-3" width="26" height="26" /></g>
+                                </svg>
+                                <p class="ratinq_quantity">12</p>
+                            </div>
+                            <div class="rating__btn">
+                                <button>ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== item 5 ======================= -->
+                    <div class="dishes__item">
+                        <div class="dishes__item_img">
+                            <img class="dishes_img" src="./images/dishes__image-5.png" alt="image">
+                            
+                            <div class="dishes__share_icon">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="13"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.8V5.6l5.6 5.6-5.6 5.6v-3.28c-4 0-6.8 1.28-8.8 4.08.8-4 3.2-8 8.8-8.8z" /></mask><g mask="url(#a)"><path d="M1.6 1.6h20.8v20.8H1.6z"/></g></svg>
+                            </div>
+                        </div>
+
+                        <div class="dishes__item_texts">
+                            <p class="dishes__item_title">Featured Meal</p>
+                            <p class="dishes__item_small_title">Served with french fries + drink</p>
+
+                            <p class="dishes__item_text">
+                                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...
+                            </p>
+                        </div>
+
+                        <div class="rating">
+                            <div class="rating_stars">
+                                <svg width="120" height="19" viewBox="0 0 120 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z"        fill="white" /></mask><g mask="url(#mask0_4_151)">    <rect x="-3" y="-3" width="26" height="26" /></g><mask id="mask1_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M35 15.27L41.18 19L39.54 11.97L45 7.24L37.81 6.63L35 0L32.19 6.63L25 7.24L30.46 11.97L28.82 19L35 15.27Z"        fill="white" /></mask><g mask="url(#mask1_4_151)">    <rect x="22" y="-3" width="26" height="26" /></g><mask id="mask2_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M60 15.27L66.18 19L64.54 11.97L70 7.24L62.81 6.63L60 0L57.19 6.63L50 7.24L55.46 11.97L53.82 19L60 15.27Z"        fill="white" /></mask><g mask="url(#mask2_4_151)">    <rect x="47" y="-3" width="26" height="26" /></g><mask id="mask3_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M95 7.24L87.81 6.62L85 0L82.19 6.63L75 7.24L80.46 11.97L78.82 19L85 15.27L91.18 19L89.55 11.97L95 7.24V7.24ZM85 13.4V4.1L86.71 8.14L91.09 8.52L87.77 11.4L88.77 15.68L85 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask3_4_151)">    <rect x="72" y="-3" width="26" height="26" /></g><mask id="mask4_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M120 7.24L112.81 6.62L110 0L107.19 6.63L100 7.24L105.46 11.97L103.82 19L110 15.27L116.18 19L114.55 11.97L120 7.24V7.24ZM110 13.4L106.24 15.67L107.24 11.39L103.92 8.51L108.3 8.13L110 4.1L111.71 8.14L116.09 8.52L112.77 11.4L113.77 15.68L110 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask4_4_151)">    <rect x="97" y="-3" width="26" height="26" /></g>
+                                </svg>
+                                <p class="ratinq_quantity">12</p>
+                            </div>
+                            <div class="rating__btn">
+                                <button>ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== item 6 ======================= -->
+                    <div class="dishes__item">
+                        <div class="dishes__item_img">
+                            <img class="dishes_img" src="./images/dishes__image-6.png" alt="image">
+                            
+                            <div class="dishes__share_icon">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="13"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.8V5.6l5.6 5.6-5.6 5.6v-3.28c-4 0-6.8 1.28-8.8 4.08.8-4 3.2-8 8.8-8.8z" /></mask><g mask="url(#a)"><path d="M1.6 1.6h20.8v20.8H1.6z"/></g></svg>
+                            </div>
+                        </div>
+
+                        <div class="dishes__item_texts">
+                            <p class="dishes__item_title">Featured Meal</p>
+                            <p class="dishes__item_small_title">Served with french fries + drink</p>
+
+                            <p class="dishes__item_text">
+                                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...
+                            </p>
+                        </div>
+
+                        <div class="rating">
+                            <div class="rating_stars">
+                                <svg width="120" height="19" viewBox="0 0 120 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z"        fill="white" /></mask><g mask="url(#mask0_4_151)">    <rect x="-3" y="-3" width="26" height="26" /></g><mask id="mask1_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M35 15.27L41.18 19L39.54 11.97L45 7.24L37.81 6.63L35 0L32.19 6.63L25 7.24L30.46 11.97L28.82 19L35 15.27Z"        fill="white" /></mask><g mask="url(#mask1_4_151)">    <rect x="22" y="-3" width="26" height="26" /></g><mask id="mask2_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M60 15.27L66.18 19L64.54 11.97L70 7.24L62.81 6.63L60 0L57.19 6.63L50 7.24L55.46 11.97L53.82 19L60 15.27Z"        fill="white" /></mask><g mask="url(#mask2_4_151)">    <rect x="47" y="-3" width="26" height="26" /></g><mask id="mask3_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M95 7.24L87.81 6.62L85 0L82.19 6.63L75 7.24L80.46 11.97L78.82 19L85 15.27L91.18 19L89.55 11.97L95 7.24V7.24ZM85 13.4V4.1L86.71 8.14L91.09 8.52L87.77 11.4L88.77 15.68L85 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask3_4_151)">    <rect x="72" y="-3" width="26" height="26" /></g><mask id="mask4_4_151" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="19">    <path fill-rule="evenodd" clip-rule="evenodd"        d="M120 7.24L112.81 6.62L110 0L107.19 6.63L100 7.24L105.46 11.97L103.82 19L110 15.27L116.18 19L114.55 11.97L120 7.24V7.24ZM110 13.4L106.24 15.67L107.24 11.39L103.92 8.51L108.3 8.13L110 4.1L111.71 8.14L116.09 8.52L112.77 11.4L113.77 15.68L110 13.4V13.4Z"        fill="white" /></mask><g mask="url(#mask4_4_151)">    <rect x="97" y="-3" width="26" height="26" /></g>
+                                </svg>
+                                <p class="ratinq_quantity">12</p>
+                            </div>
+                            <div class="rating__btn">
+                                <button>ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============= share to... =============== -->
+                    <div class="dishes_share__item">
+                        <h2 class="dishes_share_title" id="dishesItem_title">
+                            Share to
+                        </h2>
+                        <div class="share_icons">
+                            <div class="share_social_icon" title="Copy link">
+                                <div class="copy_icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"/></svg>
+                                    <p class="copy_text">Copy link</p>
+                                </div>
+                            </div>
+                            <div class="share_social_icon" title="Facebook">
+                                <img src="./images/shareTo_facebook.svg" alt="Facebook">
+                            </div>
+                            <div class="share_social_icon" title="Instagram">
+                                <img src="./images/shareTo_instagram.svg" alt="Instagram">
+                            </div>
+                            <div class="share_social_icon" title="Twitter">
+                                <img src="./images/shareTo_twitter.svg" alt="Twitter">
+                            </div>
+                            <div class="share_social_icon" title="Telegram">
+                                <img src="./images/shareTo_telegram.svg" alt="Telegram">
+                            </div>
+                            <div class="share_social_icon" title="LinkedIn">
+                                <img src="./images/shareTo_linkedin.svg" alt="LinkedIn">
+                            </div>
+                            <div class="share_social_icon" title="Gmail">
+                                <img src="./images/shareTo_gmail.svg" alt="Gmail">
+                            </div>
+                            <div class="share_social_icon more_container" title="More">
+                                <p class="circle"></p>
+                                <p class="circle"></p>
+                                <p class="circle"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chefs__section">
+            <div class="container">
+                <div class="titles">
+                    <div class="transparent_title">CHEFS</div>
+                    <div class="title">This month's chefs</div>
+                </div>
+
+                <div class="chefs__items">
+
+                    <!-- ===================== item 1 ========================= -->
+                    <div class="chef__item">
+                        <div class="chef__image_name">
+                            <div class="chef__img">
+                                <img src="./images/chef-1.png" alt="chef img">
+                            </div>
+    
+                            <div class="chef_name">
+                                <p class="name">Gregory Flores</p>
+                                <p class="level">Chef of the cold</p>
+                            </div>
+                        </div>
+
+                        <div class="chefs_images">
+                            <img src="./images/chef_images-1.png" alt="images">
+                        </div>
+                    </div>
+
+                    <!-- ===================== item 2 ========================= -->
+                    <div class="chef__item">
+                        <div class="chef__image_name">
+                            <div class="chef__img">
+                                <img src="./images/chef-2.png" alt="chef img">
+                            </div>
+    
+                            <div class="chef_name">
+                                <p class="name">Annette Cooper</p>
+                                <p class="level">Chef of the hot</p>
+                            </div>
+                        </div>
+
+                        <div class="chefs_images">
+                            <img src="./images/chef_images-2.png" alt="images">
+                        </div>
+                    </div>
+
+                    <!-- ===================== item 3 ========================= -->
+                    <div class="chef__item">
+                        <div class="chef__image_name">
+                            <div class="chef__img">
+                                <img src="./images/chef-3.png" alt="chef img">
+                            </div>
+    
+                            <div class="chef_name">
+                                <p class="name">Greg Fox</p>
+                                <p class="level">Сhef macro kitchen</p>
+                            </div>
+                        </div>
+
+                        <div class="chefs_images">
+                            <img src="./images/chef_images-3.png" alt="images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes__section">
+            <div class="container">
+                <div class="titles">
+                    <div class="transparent_title">RECIPES</div>
+                    <div class="title">Recipes From Our Chefs</div>
+                </div>
+
+                <div class="recipes__items">
+                    <div class="recipes__item_breakfast">
+                        <img src="./images/recipes_breakfast.png" alt="breakfast">
+
+                        <div class="recipes_back_icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_2_228" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="16" height="16">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_2_228)">
+                                    <rect x="-5" y="-5" width="26" height="26"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="recipes__breakfast_content">
+                            <p class="recipes__breakfast_title">breakfast</p>
+                            <p class="recipes__breakfast_date">05 Jul 2022</p>
+
+                            <p class="recipes__breakfast_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+
+                            <p class="recipes__breakfast_name">Jason Keller</p>
+
+                            <div class="recipes__breakfast_active">
+                                <div class="breakfast_active_views breakfast_icon">
+                                    <img src="./images/recipes__views_icon.svg" alt="views">
+                                    <p class="views_quantity active_quantity">275</p>
+                                </div>
+                                <div class="breakfast_active_comments breakfast_icon">
+                                    <img src="./images/recipes__comments_icon.svg" alt="comments">
+                                    <p class="comments_quantity active_quantity">12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recipes__item_lists">
+                        
+                        <!-- ================== list 1 ====================== -->
+                        <div class="recipes__list">
+                            <p class="recipes__list_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            </p>
+                            
+                            <div class="recipes__list_date">
+                                <div class="list_date_item">
+                                    <p class="list_lunch">lunch</p>
+                                    <p class="list_date">14 Jan 2022</p>
+                                </div>
+
+                                <div class="list_active">
+                                    <div class="list_active_icon">
+                                        <img src="./images/recipes__views_icon.svg" alt="views">
+                                        <p class="list_active_quantity">311</p>
+                                    </div>
+                                    <div class="list_active_icon">
+                                        <img src="./images/recipes__comments_icon.svg" alt="comments">
+                                        <p class="list_active_quantity">7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================== list 2 ====================== -->
+                        <div class="recipes__list recipes_image_list">
+                            <img src="./images/recipes__list_img.png" alt="image">
+                            <div class="recipes_list_content">
+                                <p class="recipes__list_text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                                </p>
+
+                                <div class="recipes__list_date">
+                                    <div class="list_date_item">
+                                        <p class="list_lunch">dinner</p>
+                                        <p class="list_date">01 Jan 2022</p>
+                                    </div>
+    
+                                    <div class="list_active">
+                                        <div class="list_active_icon">
+                                            <img src="./images/recipes__views_icon.svg" alt="views">
+                                            <p class="list_active_quantity">478</p>
+                                        </div>
+                                        <div class="list_active_icon">
+                                            <img src="./images/recipes__comments_icon.svg" alt="comments">
+                                            <p class="list_active_quantity">33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================== list 3 ====================== -->
+                        <div class="recipes__list">
+                            <p class="recipes__list_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+
+                            <div class="recipes__list_date">
+                                <div class="list_date_item">
+                                    <p class="list_lunch">sweets</p>
+                                    <p class="list_date">26 Jan 2022</p>
+                                </div>
+
+                                <div class="list_active">
+                                    <div class="list_active_icon">
+                                        <img src="./images/recipes__views_icon.svg" alt="views">
+                                        <p class="list_active_quantity">320</p>
+                                    </div>
+                                    <div class="list_active_icon">
+                                        <img src="./images/recipes__comments_icon.svg" alt="comments">
+                                        <p class="list_active_quantity">25</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social__section">
+            <div class="container">
+                <div class="titles">
+                    <div class="transparent_title">SOCIAL</div>
+                    <div class="title">We in Social</div>
+                </div>
+
+                <div class="social__cards">
+                    
+                    <!-- ====================== card 1 ========================= -->
+                    <div class="social__card">
+                        <div class="social_card_header">
+                            <div class="social__top_icon">
+                                <div class="social_icon">
+                                    <img src="./images/social_card_twitter.svg" alt="Twitter">
+                                </div>
+                                <p class="icon_name">Twitter</p>
+                            </div>
+
+                            <div class="social_card_btn">
+                                <button class="social_btn">follow us</button>
+                            </div>
+                        </div>
+
+                        <div class="social__card_content">
+                            <p class="card_date">24 Jun at 16:20 pm</p>
+
+                            <p class="social_card_text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aliquam. At nulla fuga eum recusandae, veritatis asperiores alias eos, officiis, reiciendis dolor modi dolore repudiandae reprehenderit quo placeat excepturi commodi architecto tenetur maxime et. Officia maxime quidem rerum quod ipsam molestias soluta vitae. Quod, rerum accusamus tempora nostrum ratione, ex adipisci, tempore aliquid obcaecati pariatur iste! Accusamus ipsum eum recusandae.
+                            </p>
+                        </div>
+
+                        <div class="card__author">
+                            <a href="#/">@DennisFerguson</a>
+                        </div>
+                    </div>
+
+                    <!-- ====================== card 2 ========================= -->
+                    <div class="social__card">
+                        <div class="social_card_header">
+                            <div class="social__top_icon">
+                                <div class="social_icon">
+                                    <img src="./images/social_card_instagram.svg" alt="Instagram">
+                                </div>
+                                <p class="icon_name">Instagram</p>
+                            </div>
+
+                            <div class="social_card_btn">
+                                <button class="social_btn">follow us</button>
+                            </div>
+                        </div>
+
+                        <div class="social__card_content">
+                            <p class="card_date">25 Jun at 16:20 pm</p>
+
+                            <p class="social_card_text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aliquam. At nulla fuga eum recusandae, veritatis asperiores alias eos, officiis, reiciendis dolor modi dolore repudiandae reprehenderit quo placeat excepturi commodi architecto tenetur maxime et. Officia maxime quidem rerum quod ipsam molestias soluta vitae. Quod, rerum accusamus tempora nostrum ratione, ex adipisci, tempore aliquid obcaecati pariatur iste! Accusamus ipsum eum recusandae.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- ====================== card 3 ========================= -->
+                    <div class="social__card">
+                        <div class="social_card_header">
+                            <div class="social__top_icon">
+                                <div class="social_icon">
+                                    <img src="./images/social_card_facebook.svg" alt="Facebook">
+                                </div>
+                                <p class="icon_name">Facebook</p>
+                            </div>
+
+                            <div class="social_card_btn">
+                                <button class="social_btn">follow us</button>
+                            </div>
+                        </div>
+
+                        <div class="social__card_content">
+                            <p class="card_date">26 Jun at 16:20 pm</p>
+
+                            <p class="social_card_text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aliquam. At nulla fuga eum recusandae, veritatis asperiores alias eos, officiis, reiciendis dolor modi dolore repudiandae reprehenderit quo placeat excepturi commodi architecto tenetur maxime et. Officia maxime quidem rerum quod ipsam molestias soluta vitae. Quod, rerum accusamus tempora nostrum ratione, ex adipisci, tempore aliquid obcaecati pariatur iste! Accusamus ipsum eum recusandae.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="toUpBtn">
+        <a href="#">
+            <div class="upIcon">
+                <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_2_234" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="16" height="16">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 7H12.17L6.58 1.41L8 0L16 8L8 16L6.59 14.59L12.17 9H0V7Z" fill="white" />
+                    </mask>
+                    <g mask="url(#mask0_2_234)">
+                        <rect width="26" height="26" transform="matrix(-1 0 0 1 21 -5)"/>
+                    </g>
+                </svg>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <section class="footer__section">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer_item">
+                        <img src="./images/header_contact_icon-1.svg" alt="time">
+                        <p class="time">Today 10:00 am - 7:00 pm</p>
+                        <p class="time_text">Working hours</p>
+                    </div>
+
+                    <div class="footer_item">
+                        <img src="./images/header_contact_icon-2.svg" alt="time">
+                        <p class="time">Velyka Vasylkivska 100</p>
+                        <p class="time_text">Get Directions</p>
+                    </div>
+
+                    <div class="footer_item">
+                        <img src="./images/header_contact_icon-3.svg" alt="time">
+                        <p class="time">+38 (063)833 24 15</p>
+                        <p class="time_text">Call Online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_border"></div>
+
+            <div class="container">
+                <div class="footer_logo">
+                    <a href="./">
+                        <div class="logo_icon"><img src="./images/logo.svg" alt="logo"></div>
+                        <p class="logo_text">HEALTHY SWITCHER</p>
+                    </a>
+                </div>
+                <p class="copyright">
+                    &copy; By <a href="https://avetisharutyunyan.github.io/" target="_blank">Avetis Harutyunyan</a>. All Rights Reserved <span id="years"></span>.
+                </p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/all.js"></script>
+
 </body>
 </html>
