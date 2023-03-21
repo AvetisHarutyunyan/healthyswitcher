@@ -1,11 +1,19 @@
 // Color
 $green: #34C759;
 
+// Scss
+@import "./sections/header.scss";
+@import "./sections/main.scss";
+@import "./sections/footer.scss";
+
+// fonts
+@import "./fonts.scss";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "r-regular", sans-serif;
     text-decoration: none;
     list-style: none;
     outline: none;
@@ -84,8 +92,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family: $fontRoboto;
-        font-weight: 700;
+        font-family: "r-bold";
         font-size: 100px;
         letter-spacing: 8px;
         color: #303030;
@@ -186,8 +193,3 @@ body {
         }
     }
 }
-
-// Scss
-@import "./sass_sections/header";
-@import "./sass_sections/main";
-@import "./sass_sections/footer";
